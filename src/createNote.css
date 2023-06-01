@@ -1,0 +1,44 @@
+form {
+}
+.formcontent {
+  position: relative;
+  text-align: center;
+  margin: 30px auto;
+  width: 405px;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 1px 1px 2px 4px rgba(146, 133, 133, 0.5);
+}
+#in {
+  outline: none;
+  font-size: 18px;
+  width: 380px;
+  height: 30px;
+  border: none;
+  margin-bottom: 5px;
+}
+#tt {
+  outline: none;
+  resize: none;
+  width: 380px;
+  font-size: 18px;
+  height: 75px;
+  border: none;
+}
+button {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  background-color: rgb(231, 144, 173);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  box-shadow: 2px 2px 4px rgba(146, 133, 133, 1);
+}
+button:hover {
+  box-shadow: 2px 2px 4px 2px rgba(146, 133, 133, 1);
+}
